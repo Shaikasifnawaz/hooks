@@ -1,6 +1,7 @@
 from flask import Flask, request, make_response
 import requests
 import logging
+import os
 
 app = Flask(__name__)
 app.config['VERIFY_TOKEN'] = '5qP_HAuWf2NCqxcxD6zO4ahisNsuK4XMxh7011EoZ3M'
